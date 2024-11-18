@@ -1,0 +1,4 @@
+schedules:
+  - cron: "40 13 * * *"  # This means 1:30 PM every day
+    command: python3 main.py && python3 sk.py
+    timezone: "UTC"
